@@ -1,0 +1,84 @@
+/* 
+  Localizable.strings
+  OCBiOTP
+
+  Created by Trinh Quang Son on 11/20/18.
+  Copyright © 2018 sontq00787@gmail.com. All rights reserved.
+*/
+// MARK: - Screen No3: Setup PIN Code
+"Set PIN Code" = "Cài đặt mã PIN";
+"Please, set your PIN Code. The PIN Code must be 6 digits" = "Vui lòng cài đặt mã PIN. Mã PIN bắt buộc 6 chữ số";
+"Enter your PIN Code" = "Nhập mã PIN của bạn";
+"Continue" = "Tiếp theo";
+"For security reasons, the numpad layout is randomized" = "Vì lý do bảo mật, các số trên bàn phím có thể sẽ bị thay đổi vị trí";
+"CLEAR" = "XOÁ";
+
+// MARK: - Screen No.4: Confirm PIN code
+
+"Confirm your PIN Code" = "Nhập lại mã PIN";
+"Please, re-enter the same PIN Code that you have entered in previous step" = "Vui lòng điền đúng mã PIN bạn đã cài ở bước phía trước";
+
+// MARK: - Screen No.5 + 6: Popup
+"Setting PIN Code Successfully" = "Xác nhận thành công";
+"Congratulation" = "Chúc mừng";
+"You have set PIN Code successfully" = "Bạn đã cài đặt mã PIN thành công";
+"Setting PIN Code Failed" = "Không thành công";
+"Your PINs do not match. Please, try again" = "Mã PIN của bạn không trùng khớp. Vui lòng cài đặt lại";
+"Failed" = "Không chính xác";
+"Retry" = "Thử lại";
+
+"You have activated your account successfully" = "Bạn đã kích hoạt thành công ứng dụng!";
+
+// MARK: - Screen No.7: Login
+"Login" = "Đăng nhập hệ thống";
+"Please, enter your PIN Code" = "Nhập mã PIN của bạn";
+
+// MARK: - Screen No.9: Activate
+"Activation Your Account" = "Kích hoạt ứng dụng";
+"Username" = "Tên đăng nhập";
+"Enter Activation Code" = "Nhập mã kích hoạt";
+"Activate" = "Kích hoạt";
+
+// MARK: - Screen No.14: Settings
+
+"System Settings" = "Cài đặt hệ thống";
+"Setting authorization methods" = "Cài đặt phương thức đăng nhập";
+"Biometrics" = "Sinh trắc học";
+"GPS Location" = "Định vị GPS";
+"Biometric_Guide" = "* Sinh trắc học (Vân tay/Khuôn mặt):\r\nKhi ở chế độ MỞ/ON thì hệ thống sẽ yêu cầu bạn xác thực bằng Vân tay hoặc Khuôn mặt. Phương thức xác thực sẽ phụ thuộc vào điện thoại của bạn đang sử dụng\r\nKhi ở chế độ TẮT/OFF thì hệ thống sẽ yêu cầu xác thực bằng Mã PIN\r\n* Định vị GPS:\r\nKhi ở chế độ MỞ/ON thì hệ thống sẽ ghi nhận vị trí bạn xác thực giao dịch. Việc này nhằm mục đích bảo vệ bạn khi thực hiện giao dịch\r\nKhi ở chế độ TẮT/OFF thì hệ thống sẽ không ghi nhận vị trí bạn xác thực giao dịch";
+
+// MARK: - Screen No.16: Transaction Approval
+"Transaction Approval" = "Xác nhận giao dịch";
+"Transaction Information" = "Nội dung giao dịch";
+"Transaction ID" = "Mã giao dịch";
+"From Account" = "Từ tài khoản";
+"To Account" = "Tới tài khoản";
+"Amount" = "Số tiền";
+"Transaction Time" = "Thời gian giao dịch";
+"Approve" = "Xác nhận";
+"Cancel" = "Bỏ qua";
+
+// MARK: - Screen No.18
+"Transaction Information 2" = "Thông tin giao dịch";
+"OTP" = "Mã OTP";
+"Please, enter this OTP at Verification transaction step on Internet Banking/ Mobile Banking" = "Quý khách vui lòng nhập mã OTP này để xác thực giao dịch:";
+"The OTP is available in 120 seconds" = "Mã OTP có hiệu lực trong vòng 120 giây";
+"Complete" = "Hoàn tất";
+
+// MARK: - Screen No.20: Home
+"Welcome to OCB iOTP" = "Chào mừng đến với OCB iOTP";
+"You don’t have any transaction need to verify." = "Hiện tại bạn chưa có bất kỳ giao dịch nào cần xác nhận";
+"OCB iOTP was built by OCB for securing your transaction based on the Policy of The State Bank of Viet Nam" = "OCB iOTP là hệ thống xác thực giao dịch bảo mật được OCB phát triển để đáp ứng tuân thủ theo quy định của Ngân hàng Nhà Nước Việt Nam.";
+"For more information, please" = "Để biết thêm chi tiết, vui lòng xem";
+"click here" = "tại đây";
+
+"Using_TouchID_Reason" = "Vui lòng chạm vào cảm biến Vân tay trên thiết bị để tiếp tục";
+"Using_FaceID_Reason" = "Vui lòng xác nhận khuôn mặt để tiếp tục";
+
+"Your account has locked on OCB iOTP. Please go to OCB Branches or call at 18006678 for help" = "Tài khoản của Quý Khách trên OCB iOTP đã bị khóa. Quý Khách vui lòng tới chi nhánh OCB gần nhất hoặc gọi 18006678 để được hỗ trợ.";
+"Time has expired" = "Hết thời gian giao dịch";
+"Your account has locked for" = "Tài khoản của bạn bị tạm khoá trong";
+"seconds" = "giây";
+"Your account have not activated. Please try again" = "Bạn kích hoạt không thành công ứng dụng. Vui lòng thử lại";
+
+"Application verification" = "Xác thực hệ thống";

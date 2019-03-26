@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  OCBiOTP
+
+  Created by Trinh Quang Son on 11/20/18.
+  Copyright © 2018 sontq00787@gmail.com. All rights reserved.
+*/
+
+"Transaction Information 2" = "Transaction Information";
+"Biometric_Guide" = "* Biometrics:\r\nWhen you turn ON, system will allow you to login application by Fingerprint or Face Regconization (It depends on your mobile device)\r\nWhen you turn OFF, system will set default login method as PIN Code\r\n* GPS Location:\r\nWhen you turn ON, system will record your location when you submit transaction. It will protect you  and easy to check with the bank when you have any issue\r\nWhen you turn OFF, System does not record your location when you submit transaction";
+
+"Using_TouchID_Reason" = "Please touch your Fingerprint to continue";
+"Using_FaceID_Reason" = "Please verify your Face to continue";

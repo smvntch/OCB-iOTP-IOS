@@ -1,0 +1,6 @@
+framework module Pods_OCBiOTP {
+  umbrella header "Pods-OCBiOTP-umbrella.h"
+
+  export *
+  module * { export * }
+}

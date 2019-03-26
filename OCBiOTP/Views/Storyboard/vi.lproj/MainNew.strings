@@ -1,0 +1,198 @@
+
+/* Class = "UILabel"; text = "Please, enter this OTP at Verification transaction step on Internet Banking/ Mobile Banking"; ObjectID = "08L-by-qXy"; */
+"08L-by-qXy.text" = "Quý khách vui lòng nhập mã OTP này để xác thực giao dịch:";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "0TR-1W-UNF"; */
+"0TR-1W-UNF.text" = "0";
+
+/* Class = "UILabel"; text = "Transaction Time:"; ObjectID = "2Bj-aX-eds"; */
+"2Bj-aX-eds.text" = "Thời gian giao dịch:";
+
+/* Class = "UIButton"; normalTitle = "ENGLISH"; ObjectID = "2Mg-Jc-vR0"; */
+"2Mg-Jc-vR0.normalTitle" = "ENGLISH";
+
+/* Class = "UILabel"; text = "Confirm your PIN Code"; ObjectID = "3Gc-eB-so5"; */
+"3Gc-eB-so5.text" = "Nhập lại mã PIN";
+
+/* Class = "UILabel"; text = "03700007142245"; ObjectID = "4la-L1-wMN"; */
+"4la-L1-wMN.text" = "03700007142245";
+
+/* Class = "UILabel"; text = "Activation Your Account"; ObjectID = "6XW-Mg-4hE"; */
+"6XW-Mg-4hE.text" = "Kích hoạt ứng dụng";
+
+/* Class = "UILabel"; text = "Please, set your PIN Code. The PIN Code must be 6 digits"; ObjectID = "6rF-Xn-Akj"; */
+"6rF-Xn-Akj.text" = "Vui lòng cài đặt mã PIN. Mã PIN bắt buộc 6 chữ số";
+
+/* Class = "UIButton"; normalTitle = "Complete"; ObjectID = "84r-Ah-eNn"; */
+"84r-Ah-eNn.normalTitle" = "Hoàn tất";
+
+/* Class = "UILabel"; text = "Transaction ID:"; ObjectID = "8bm-Gy-n3m"; */
+"8bm-Gy-n3m.text" = "Mã giao dịch:";
+
+/* Class = "UILabel"; text = "Enter your PIN Code"; ObjectID = "AJ6-c6-Tg8"; */
+"AJ6-c6-Tg8.text" = "Nhập mã PIN của bạn";
+
+/* Class = "UILabel"; text = "03700007142245"; ObjectID = "BEq-pC-aeA"; */
+"BEq-pC-aeA.text" = "03700007142245";
+
+/* Class = "UILabel"; text = "You don’t have any transaction need to verify. "; ObjectID = "Bkh-JU-zC4"; */
+"Bkh-JU-zC4.text" = "Hiện tại bạn chưa có bất kỳ giao dịch nào cần xác nhận";
+
+/* Class = "UILabel"; text = "Please select your language"; ObjectID = "CMW-Jr-4Ia"; */
+"CMW-Jr-4Ia.text" = "Please select your language";
+
+/* Class = "UILabel"; text = "For security reasons, the numpad layout is randomized"; ObjectID = "Cdr-4D-heE"; */
+"Cdr-4D-heE.text" = "Vì lý do bảo mật, các số trên bàn phím có thể sẽ bị thay đổi vị trí";
+
+/* Class = "UILabel"; text = "003700007142008"; ObjectID = "DK8-nE-0Vt"; */
+"DK8-nE-0Vt.text" = "003700007142008";
+
+/* Class = "UILabel"; text = "23331234"; ObjectID = "EyA-1H-zzY"; */
+"EyA-1H-zzY.text" = "23331234";
+
+/* Class = "UILabel"; text = "To Account:"; ObjectID = "G9e-i3-r30"; */
+"G9e-i3-r30.text" = "Đến tài khoản:";
+
+/* Class = "UILabel"; text = "OTP"; ObjectID = "Gv4-4F-EVB"; */
+"Gv4-4F-EVB.text" = "OTP";
+
+/* Class = "UILabel"; text = "VNĐ"; ObjectID = "H73-k4-56r"; */
+"H73-k4-56r.text" = "VNĐ";
+
+/* Class = "UIButton"; normalTitle = "TIẾNG VIỆT"; ObjectID = "IHn-WW-0eh"; */
+"IHn-WW-0eh.normalTitle" = "TIẾNG VIỆT";
+
+/* Class = "UIButton"; normalTitle = "ENG"; ObjectID = "J2T-ww-iCI"; */
+"J2T-ww-iCI.normalTitle" = "ENG";
+
+/* Class = "UILabel"; text = "Transaction Time:"; ObjectID = "JUS-27-fHd"; */
+"JUS-27-fHd.text" = "Thời gian giao dịch:";
+
+/* Class = "UILabel"; text = "15/01/2018 - 12:23:45"; ObjectID = "KXI-EU-cQO"; */
+"KXI-EU-cQO.text" = "15/01/2018 - 12:23:45";
+
+/* Class = "UILabel"; text = "23331234"; ObjectID = "LiQ-57-lsx"; */
+"LiQ-57-lsx.text" = "23331234";
+
+/* Class = "UILabel"; text = "Từ tài khoản:"; ObjectID = "MEA-72-ykF"; */
+"MEA-72-ykF.text" = "Từ tài khoản:";
+
+/* Class = "UILabel"; text = "Biometrics"; ObjectID = "NXY-dO-7NG"; */
+"NXY-dO-7NG.text" = "Biometrics";
+
+/* Class = "UILabel"; text = "20/11/2018 - 14:32:00"; ObjectID = "Qnx-GH-k2P"; */
+"Qnx-GH-k2P.text" = "20/11/2018 - 14:32:00";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "RAF-Vv-d6a"; */
+"RAF-Vv-d6a.text" = "0";
+
+/* Class = "UILabel"; text = "For security reasons, the numpad layout is randomized"; ObjectID = "RCd-6n-3pk"; */
+"RCd-6n-3pk.text" = "Vì lý do bảo mật, các số trên bàn phím có thể sẽ bị thay đổi vị trí";
+
+/* Class = "UIButton"; normalTitle = "Setting"; ObjectID = "RTw-mO-rW1"; */
+"RTw-mO-rW1.normalTitle" = "Cài đặt";
+
+/* Class = "UIButton"; normalTitle = "ENG"; ObjectID = "ReS-1c-iYH"; */
+"ReS-1c-iYH.normalTitle" = "ENG";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "S7m-H0-Nwm"; */
+"S7m-H0-Nwm.text" = "0";
+
+/* Class = "UILabel"; text = "Transaction Information"; ObjectID = "SbS-xU-PjO"; */
+"SbS-xU-PjO.text" = "Thông tin giao dịch";
+
+/* Class = "UILabel"; text = "003700007142008"; ObjectID = "TX4-hH-23f"; */
+"TX4-hH-23f.text" = "003700007142008";
+
+/* Class = "UILabel"; text = "GPS Location"; ObjectID = "Td2-I3-Cff"; */
+"Td2-I3-Cff.text" = "Định vị GPS";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Tet-xF-SCR"; */
+"Tet-xF-SCR.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "UfK-JC-xcV"; */
+"UfK-JC-xcV.normalTitle" = "TIẾP THEO";
+
+/* Class = "UILabel"; text = "Từ tài khoản:"; ObjectID = "Wzf-Nn-84x"; */
+"Wzf-Nn-84x.text" = "Từ tài khoản:";
+
+/* Class = "UIButton"; normalTitle = "VN"; ObjectID = "ZDJ-zS-yOM"; */
+"ZDJ-zS-yOM.normalTitle" = "VN";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "ZNR-9p-q3X"; */
+"ZNR-9p-q3X.text" = "0";
+
+/* Class = "UILabel"; text = "VNĐ"; ObjectID = "boM-qy-0LA"; */
+"boM-qy-0LA.text" = "VNĐ";
+
+/* Class = "UILabel"; text = "The OTP is available in 60 seconds"; ObjectID = "brC-qc-Z21"; */
+"brC-qc-Z21.text" = "Mã OTP có hiệu lực trong vòng 60 giây";
+
+/* Class = "UILabel"; text = "Amount:"; ObjectID = "cXd-cy-V78"; */
+"cXd-cy-V78.text" = "Amount:";
+
+/* Class = "UIButton"; normalTitle = "Activate"; ObjectID = "e0N-Xq-cmK"; */
+"e0N-Xq-cmK.normalTitle" = "Activate";
+
+/* Class = "UIButton"; normalTitle = "VN"; ObjectID = "eWj-8o-zj6"; */
+"eWj-8o-zj6.normalTitle" = "VN";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "fEr-q8-qlx"; */
+"fEr-q8-qlx.normalTitle" = "TIẾP THEO";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "fZd-pv-XQU"; */
+"fZd-pv-XQU.normalTitle" = "TIẾP THEO";
+
+/* Class = "UILabel"; text = "Setting authorization methods"; ObjectID = "geY-hK-3Cs"; */
+"geY-hK-3Cs.text" = "Cài đặt phương thức đăng nhập";
+
+/* Class = "UILabel"; text = "* Biometrics:\r\nWhen you turn ON, system will allow you to login application by Fingerprint or Face Regconization (It depends on your mobile device)\r\nWhen you turn OFF, system will set default login method as PIN Code\r\n* GPS Location:\r\nWhen you turn ON, system will record your location when you submit transaction. It will protect you  and easy to check with the bank when you have any issue\r\nWhen you turn OFF, System does not record your location when you submit transaction\r\n"; ObjectID = "ifn-Mu-KQE"; */
+"ifn-Mu-KQE.text" = "* Sinh trắc học (Vân tay/Khuôn mặt):\r\nKhi ở chế độ MỞ/ON thì hệ thống sẽ yêu cầu bạn xác thực bằng Vân tay hoặc Khuôn mặt. Phương thức xác thực sẽ phụ thuộc vào điện thoại của bạn đang sử dụng\r\nKhi ở chế độ TẮT/OFF thì hệ thống sẽ yêu cầu xác thực bằng Mã PIN\r\n* Định vị GPS:\r\nKhi ở chế độ MỞ/ON thì hệ thống sẽ ghi nhận vị trí bạn xác thực giao dịch. Việc này nhằm mục đích bảo vệ bạn khi thực hiện giao dịch\r\nKhi ở chế độ TẮT/OFF thì hệ thống sẽ không ghi nhận vị trí bạn xác thực giao dịch\r\n";
+
+/* Class = "UILabel"; text = "To Account:"; ObjectID = "jjz-MZ-fYq"; */
+"jjz-MZ-fYq.text" = "Đến tài khoản:";
+
+/* Class = "UILabel"; text = "Please enter your PIN Code"; ObjectID = "k7D-ez-hY1"; */
+"k7D-ez-hY1.text" = "Nhập mã PIN của bạn";
+
+/* Class = "UILabel"; text = "Username"; ObjectID = "kk4-w7-oxz"; */
+"kk4-w7-oxz.text" = "Tên đăng nhập";
+
+/* Class = "UILabel"; text = "OCB iOTP was built by OCB for secure your transaction based on the Policy of The State Bank of Viet Nam \r\nFor more information, Please click here\r\n"; ObjectID = "lBS-4w-e5T"; */
+"lBS-4w-e5T.text" = "OCB iOTP là hệ thống xác thực giao dịch bảo mật được OCB phát triển để đáp ứng tuân thủ theo quy định của Ngân hàng Nhà Nước Việt Nam. \r\nĐể biết thêm chi tiết, vui lòng xem tại đây\r\n";
+
+/* Class = "UILabel"; text = "50.000.000"; ObjectID = "mVW-uy-BYb"; */
+"mVW-uy-BYb.text" = "50.000.000";
+
+/* Class = "UILabel"; text = "Transaction Information"; ObjectID = "mbA-OK-LSR"; */
+"mbA-OK-LSR.text" = "Nội dung giao dịch";
+
+/* Class = "UIButton"; normalTitle = "Approve"; ObjectID = "mea-Ib-O8f"; */
+"mea-Ib-O8f.normalTitle" = "Xác nhận";
+
+/* Class = "UILabel"; text = "50.000.000"; ObjectID = "pnK-3D-o6p"; */
+"pnK-3D-o6p.text" = "50.000.000";
+
+/* Class = "UILabel"; text = "Amount:"; ObjectID = "qQv-4u-tbi"; */
+"qQv-4u-tbi.text" = "Số tiền:";
+
+/* Class = "UILabel"; text = "Welcome to OCB iOTP"; ObjectID = "sdO-SF-TiH"; */
+"sdO-SF-TiH.text" = "Chào mừng đến với OCB iOTP";
+
+/* Class = "UINavigationItem"; title = "Đăng nhập hệ thống"; ObjectID = "tha-03-8jl"; */
+"tha-03-8jl.title" = "Đăng nhập hệ thống";
+
+/* Class = "UILabel"; text = "Transaction ID:"; ObjectID = "v5V-bU-EGR"; */
+"v5V-bU-EGR.text" = "Mã giao dịch:";
+
+/* Class = "UILabel"; text = "Please, re-enter the same PIN Code that you have entered in previous step"; ObjectID = "wAt-q3-HGh"; */
+"wAt-q3-HGh.text" = "Vui lòng điền đúng mã PIN bạn đã cài ở bước phía trước";
+
+/* Class = "UILabel"; text = "Enter Activation Code"; ObjectID = "xBW-dc-Bb5"; */
+"xBW-dc-Bb5.text" = "Nhập mã kích hoạt";
+
+/* Class = "UILabel"; text = "For security reasons, the numpad layout is randomized"; ObjectID = "xbf-R9-pXc"; */
+"xbf-R9-pXc.text" = "Vì lý do bảo mật, các số trên bàn phím có thể sẽ bị thay đổi vị trí";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "zQ0-QW-zb3"; */
+"zQ0-QW-zb3.normalTitle" = "Bỏ qua";
