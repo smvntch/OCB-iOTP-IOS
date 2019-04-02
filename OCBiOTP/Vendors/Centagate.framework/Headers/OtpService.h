@@ -43,7 +43,7 @@
 -(OtpInfo*) getOfflineOtpWithActivationCode:(NSString*)activationCode activationPin:(NSString*)activationPin deviceAuthentication:(DeviceAuthentication *)deviceAuthentication error:(NSError**)error;
 
 /*!
- * @discussion activateOfflineCrOtpWithHid for get detail of OTP user
+ * @discussion syncOtpWithHid for syncronize OTP time between device and server
  * @param hid contain String from device
  * @param account contain full information account
  * @param deviceAuthentication contain authentication object contain authentication infromation from user
