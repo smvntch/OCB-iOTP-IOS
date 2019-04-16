@@ -119,9 +119,9 @@ class ActivateAccountViewController: BaseViewController {
         var account: Account? = nil
         
         let hid = UIDevice.current.identifierForVendor?.uuidString ?? ""
-        let os = "iOS" + UIDevice.current.model
+        let os = "iOS " + UIDevice.current.systemVersion
         let uuid = UIDevice.current.identifierForVendor?.uuidString ?? ""
-        let systemVersion = UIDevice.current.systemName
+        let systemVersion = UIDevice.modelName
         let notificationTokenId = currentDeviceToken
         
         let securityDevice = PinAuthentication()

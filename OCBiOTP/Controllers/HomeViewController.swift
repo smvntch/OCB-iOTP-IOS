@@ -19,6 +19,13 @@ class HomeViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        NotificationCenter.default.addObserver(self, selector: #selector(willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
+        
+        if isLogged == false{
+            isLogged = true
+            getPendingRequest()
+        }
+
     }
     
     // MARK: - Views
@@ -34,8 +41,10 @@ class HomeViewController: BaseViewController {
         attributedText.append(attributedString)
         
         lblBottomMessage.attributedText = attributedText
-//        isLogged = true
+
         isInApp = true
+       
+       
     }
 
     @IBAction func doSetLanguage(_ sender: UIButton) {
@@ -57,6 +66,31 @@ class HomeViewController: BaseViewController {
         }
         initViews()
     }
+    
+    private func getPendingRequest() {
+     DispatchQueue.global(qos: .userInitiated).async {
+        if let sessionCode = AccountViewModel().getPendingAuthentication(){
+            let requestString: [String : Any] = [
+                "sessioncode": sessionCode
+            ]
+            DispatchQueue.main.sync {
+                NotificationCenter.default.post(name: .messageKey, object: nil,
+                                                userInfo: requestString)
+            }
+            
+            
+        }
+    }
+    }
+    // MARK: - Notification oberserver methods
+    @objc func willEnterForeground() {
+        print("will enter foreground")
+        if isLogged == false{
+            isLogged = true
+            getPendingRequest()
+        }
+    }
+
     
     @IBAction func unwindToHome(segue:UIStoryboardSegue) { }
     

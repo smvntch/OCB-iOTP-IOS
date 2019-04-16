@@ -16,7 +16,7 @@ class SplashViewController: BaseViewController {
         let vc: UIViewController
         let storyboard = UIStoryboard(name: "MainNew", bundle: nil)
         if let _ = AccountViewModel().retriveOtpInfoData() {
-            vc =  storyboard.instantiateViewController(withIdentifier: "LoginViewController")
+            vc =  storyboard.instantiateViewController(withIdentifier: "NavigationHomeViewController")
         }else {
             vc =  storyboard.instantiateViewController(withIdentifier: "ChooseLanguageViewController")
         }

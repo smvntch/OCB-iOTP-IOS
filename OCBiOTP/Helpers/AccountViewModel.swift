@@ -202,6 +202,30 @@ class AccountViewModel: NSObject {
         return nil
     }
     
+    func getPendingAuthentication() -> String? {
+        let authenticateService = AuthenticationService()
+        let securityDevice = PinAuthentication()
+        let passcode = getPassCode()
+        
+        do {
+            try securityDevice.setPinWithPin(passcode)
+            try securityDevice.authenticate(with: passcode as NSObject)
+            
+            guard let accountInfo = retriveAccountInfoData() else {
+                return nil
+            }
+            
+            let pendingArray = try authenticateService.getPendingRequestInfo(withHid: UIDevice.current.identifierForVendor?.uuidString ?? "", accountInfo: accountInfo, deviceAuthentication: securityDevice)
+         
+            let request : RequestInfo = pendingArray.object(at: 0) as! RequestInfo
+          
+            return request.requestId
+        } catch let error {
+            debugPrint(error.localizedDescription)
+        }
+        return nil
+    }
+    
     func loadNotification(xmlDataString: String) {
         isParseDone = false
         ocbNotification = nil
