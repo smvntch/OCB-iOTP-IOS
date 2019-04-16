@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 class TransactionInformationViewController: BaseViewController {
     @IBOutlet weak var viewTransactionInformationGroup: UIView! {
@@ -31,6 +32,13 @@ class TransactionInformationViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
+        if #available(iOS 10.0, *) {
+            let center = UNUserNotificationCenter.current()
+            center.removeAllDeliveredNotifications() // To remove all delivered notifications
+        } else {
+            // Fallback on earlier versions
+            UIApplication.shared.cancelAllLocalNotifications()
+        }
     }
     
     // MARK: - Views
@@ -61,7 +69,8 @@ class TransactionInformationViewController: BaseViewController {
     // MARK: - User Interactions
     
     @IBAction func doConfirm(_ sender: Any) {
-        DispatchQueue.main.async {
+        DispatchQueue.global(qos: .userInitiated).async {
+        //DispatchQueue.main.async {
             AccountViewModel().getSyncOtpStatus()
         }
         if isLogged, !isInApp {
