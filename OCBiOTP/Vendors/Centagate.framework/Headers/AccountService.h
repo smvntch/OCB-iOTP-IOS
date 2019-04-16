@@ -55,7 +55,7 @@
  * @param model mode of phone
  * @param deviceInfo contain device key get from SetDeviceKey method, if nil will generate new device key.
  * @param error return error
- * @return BindInfo contain accountInfromation and OTP Information
+ * @return AccountInfo contains with cipher key can use it to AccountService.getAccountIfo
  */
 -(BindInfo *)bindCompleteWithSessionInfo:(SessionInfo *)sessionInfo hid:(NSString*)hid DeviceAuth:(DeviceAuthentication *)deviceAuthentication deviceToken:(NSString *)deviceToken imei:(NSString*)imei os:(NSString*)os model:(NSString*)model deviceInfo:(DeviceInfo *)deviceInfo error:(NSError**)error;
 
