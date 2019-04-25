@@ -66,7 +66,11 @@ class Utility {
         let vc = UIStoryboard.init(name: "MainNew", bundle: Bundle.main).instantiateViewController(withIdentifier: "TransactionInformationViewController") as? TransactionInformationViewController
         navigation?.pushViewController(vc!, animated: true)
     }
-    
+    static func goToTransactionInfoVC(navigation: UINavigationController?, sessionCode : String!) {
+        let vc = UIStoryboard.init(name: "MainNew", bundle: Bundle.main).instantiateViewController(withIdentifier: "TransactionInformationViewController") as? TransactionInformationViewController
+        vc?.sessionCode = sessionCode
+        navigation?.pushViewController(vc!, animated: true)
+    }
     static func goToHomeVC(navigation: UINavigationController?) {
         let vc = UIStoryboard.init(name: "MainNew", bundle: Bundle.main).instantiateViewController(withIdentifier: "HomeViewController") as? HomeViewController
         navigation?.pushViewController(vc!, animated: true)

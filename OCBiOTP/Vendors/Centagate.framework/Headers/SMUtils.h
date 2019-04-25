@@ -25,4 +25,5 @@
 +(NSString*)stringToHex:(NSString*) data;
 +(int) base64_webSafeEncode:(unsigned char *) bin_data bin_size:(unsigned int)bin_size base64_data:(char *) base64_data;
 + (BOOL)isTouchIDAvailable ;
+ 
 @end

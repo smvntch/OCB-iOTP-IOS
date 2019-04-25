@@ -14,17 +14,37 @@ class HomeViewController: BaseViewController {
     @IBOutlet weak var lblBottomMessage: UILabel!
     @IBOutlet weak var lblWelcome: UILabel!
     @IBOutlet weak var lblTopMessage: UILabel!
+    @IBOutlet weak var viewNotification: UIView!
+    @IBOutlet weak var lblNotificationTitle: UILabel!
+    @IBOutlet weak var lblNotificationMessage: UILabel!
+    
+    var sessionCode : String = ""{
+        didSet{
+            
+            DispatchQueue.main.async { [weak self] in
+                if(self?.sessionCode != ""){
+                    self?.viewNotification.isHidden = false
+                }else{
+                    self?.viewNotification.isHidden = true
+                    
+                }
+            }
+            
+        }
+    }
+    
+    var notificationMessage : String = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
         initViews()
         NotificationCenter.default.addObserver(self, selector: #selector(willEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
-        
+       
         if isLogged == false{
             isLogged = true
             getPendingRequest()
         }
-
+        
     }
     
     // MARK: - Views
@@ -40,10 +60,17 @@ class HomeViewController: BaseViewController {
         attributedText.append(attributedString)
         
         lblBottomMessage.attributedText = attributedText
+        viewNotification.isHidden = true;
+        viewNotification.layer.shadowColor = UIColor.black.cgColor
+        viewNotification.layer.shadowOpacity = 1
+        viewNotification.layer.shadowOffset = CGSize.zero
+        viewNotification.layer.shadowRadius = 3
+        lblNotificationTitle.text = "Transaction Approval".localized
+        lblNotificationMessage.text = "Vui lòng xác thực giao dịch/ Please verify the transaction".localized
+        let tapGesture = UITapGestureRecognizer(target: self, action: #selector(handleTapNotificationView))
 
+        viewNotification.addGestureRecognizer(tapGesture)
         isInApp = true
-       
-       
     }
 
     @IBAction func doSetLanguage(_ sender: UIButton) {
@@ -69,17 +96,12 @@ class HomeViewController: BaseViewController {
     private func getPendingRequest() {
      DispatchQueue.global(qos: .userInitiated).async {
         if let sessionCode = AccountViewModel().getPendingAuthentication(){
-            let requestString: [String : Any] = [
-                "sessioncode": sessionCode
-            ]
+            self.sessionCode = sessionCode
             DispatchQueue.main.sync {
-                NotificationCenter.default.post(name: .messageKey, object: nil,
-                                                userInfo: requestString)
+                self.viewNotification.isHidden = false
+                }
             }
-            
-            
         }
-    }
     }
     // MARK: - Notification oberserver methods
     @objc func willEnterForeground() {
@@ -90,6 +112,11 @@ class HomeViewController: BaseViewController {
         }
     }
 
+    @IBAction func handleTapNotificationView(_ sender: Any) {
+            challengeCode = ""
+            Utility.goToTransactionInfoVC(navigation: self.navigationController, sessionCode:  self.sessionCode)
+                viewNotification.isHidden = true
+    }
     
     @IBAction func unwindToHome(segue:UIStoryboardSegue) { }
     

@@ -17,6 +17,7 @@ class TransactionInformationViewController: BaseViewController {
     }
     @IBOutlet var lblTitles: [UILabel]!
     @IBOutlet var lblDatas: [UILabel]!
+    var sessionCode = ""
     @IBOutlet weak var btnConfirm: UIButton! {
         didSet {
             btnConfirm.makeGradient(colors: [UIColor("42ae00").cgColor, UIColor("0b9635").cgColor], startPoint: CGPoint(x: 0, y: 1), endPoint: CGPoint(x: 1, y: 1), radius: 5)
@@ -31,7 +32,7 @@ class TransactionInformationViewController: BaseViewController {
 //    var ocbNotification: OCBNotification!
     override func viewDidLoad() {
         super.viewDidLoad()
-        initViews()
+  
         if #available(iOS 10.0, *) {
             let center = UNUserNotificationCenter.current()
             center.removeAllDeliveredNotifications() // To remove all delivered notifications
@@ -39,11 +40,60 @@ class TransactionInformationViewController: BaseViewController {
             // Fallback on earlier versions
             UIApplication.shared.cancelAllLocalNotifications()
         }
+        viewTransactionInformationGroup.isHidden = true
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        getRequestInfo()
+    }
+    
+    fileprivate func getRequestInfo(){
+        if(challengeCode == "" && sessionCode != ""){
+            
+            let alert = UIAlertController(title: nil, message: " ", preferredStyle: .alert)
+            
+            let loadingIndicator = UIActivityIndicatorView(frame: CGRect(x: 10, y: 5, width: 50, height: 50))
+            loadingIndicator.hidesWhenStopped = true
+            loadingIndicator.style = UIActivityIndicatorView.Style.gray
+            loadingIndicator.startAnimating();
+            
+            alert.view.addSubview(loadingIndicator)
+            present(alert, animated: true) {
+                [weak self] in
+                guard let code = self?.sessionCode else{
+                    alert.dismiss(animated: true, completion: nil)
+                    return;
+                }
+                if self?.getRequestInfo(sessionCode: code) != nil{
+                    self?.initViews()
+                    alert.dismiss(animated: true, completion: nil)
+                }else{
+                    alert.dismiss(animated: true, completion: {
+                        
+                        let alertController = UIAlertController(title: "", message: "Get request information failed. Please try again".localized, preferredStyle: .alert)
+                    
+                        let action1 = UIAlertAction(title: "Ok", style: .cancel) { (action:UIAlertAction) in
+                            Utility.goToHomeVC(navigation: self?.navigationController)
+                        }
+                        alertController.addAction(action1)
+                        self?.present(alertController, animated: true, completion: nil)
+                    
+                    })
+                    debugPrint("error get request info sessionCode : \(code)")
+                }
+              
+            }
+            
+        }else{
+                  initViews()
+        }
     }
     
     // MARK: - Views
     
     fileprivate func initViews() {
+        viewTransactionInformationGroup.isHidden = false
         title = "Transaction Approval".localized
         lblTitles.forEach { lbl in lbl.text = ""}
         lblDatas.forEach { lbl in lbl.text = ""}
@@ -70,7 +120,6 @@ class TransactionInformationViewController: BaseViewController {
     
     @IBAction func doConfirm(_ sender: Any) {
         DispatchQueue.global(qos: .userInitiated).async {
-        //DispatchQueue.main.async {
             AccountViewModel().getSyncOtpStatus()
         }
         if isLogged, !isInApp {

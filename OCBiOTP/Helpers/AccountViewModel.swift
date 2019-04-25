@@ -211,10 +211,10 @@ class AccountViewModel: NSObject {
             try securityDevice.setPinWithPin(passcode)
             try securityDevice.authenticate(with: passcode as NSObject)
             
-            guard let accountInfo = retriveAccountInfoData() else {
+            guard let accountInfo = retriveAccountInfoData() else
+            {
                 return nil
             }
-            
             let pendingArray = try authenticateService.getPendingRequestInfo(withHid: UIDevice.current.identifierForVendor?.uuidString ?? "", accountInfo: accountInfo, deviceAuthentication: securityDevice)
          
             let request : RequestInfo = pendingArray.object(at: 0) as! RequestInfo

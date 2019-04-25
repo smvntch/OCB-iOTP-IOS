@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M6j-Dz-j7k">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -35,22 +35,22 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ChooseLanguageViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_ocb_iotp_logo" translatesAutoresizingMaskIntoConstraints="NO" id="2l6-j8-Gpd">
-                                <rect key="frame" x="92.5" y="107" width="190.5" height="46"/>
+                                <rect key="frame" x="152" y="107" width="16" height="16"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please select your language" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMW-Jr-4Ia">
-                                <rect key="frame" x="84.5" y="255.5" width="206" height="22"/>
+                                <rect key="frame" x="60" y="209" width="200.5" height="19"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="f0N-Js-3yF">
-                                <rect key="frame" x="20" y="309.5" width="335" height="48"/>
+                                <rect key="frame" x="20" y="260" width="280" height="48"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHn-WW-0eh">
-                                        <rect key="frame" x="0.0" y="0.0" width="157.5" height="48"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="130" height="48"/>
                                         <color key="backgroundColor" red="0.011764705882352941" green="0.69019607843137254" blue="0.34509803921568627" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="48" id="Oi6-ks-shF"/>
@@ -69,7 +69,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Mg-Jc-vR0">
-                                        <rect key="frame" x="177.5" y="0.0" width="157.5" height="48"/>
+                                        <rect key="frame" x="150" y="0.0" width="130" height="48"/>
                                         <color key="backgroundColor" red="0.84313725490196079" green="0.84313725490196079" blue="0.84313725490196079" alpha="1" colorSpace="calibratedRGB"/>
                                         <fontDescription key="fontDescription" name="OpenSans-Bold" family="Open Sans" pointSize="16"/>
                                         <state key="normal" title="ENGLISH">
@@ -91,7 +91,7 @@
                                 </constraints>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vui lòng chọn ngôn ngữ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3EV-9l-gGR">
-                                <rect key="frame" x="99.5" y="225" width="176.5" height="22"/>
+                                <rect key="frame" x="74.5" y="181.5" width="171" height="19"/>
                                 <fontDescription key="fontDescription" name="OpenSans-Regular" family="Open Sans" pointSize="16"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -129,11 +129,11 @@
             <objects>
                 <viewController id="YYa-ZJ-Ykf" customClass="PassCodeViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mTb-6B-8h2">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please, set your PIN Code. The PIN Code must be 6 digits" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6rF-Xn-Akj">
-                                <rect key="frame" x="20" y="117.5" width="335" height="33"/>
+                                <rect key="frame" x="20" y="18.5" width="280" height="33"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -142,7 +142,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your PIN Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AJ6-c6-Tg8">
-                                <rect key="frame" x="114" y="188.5" width="147.5" height="19"/>
+                                <rect key="frame" x="86.5" y="89.5" width="147.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -151,7 +151,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gTF-lf-FZb">
-                                <rect key="frame" x="102.5" y="255.5" width="170" height="15"/>
+                                <rect key="frame" x="75" y="156.5" width="170" height="15"/>
                                 <subviews>
                                     <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WWM-rS-Ljs">
                                         <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
@@ -234,7 +234,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfK-JC-xcV">
-                                <rect key="frame" x="20" y="295.5" width="335" height="48"/>
+                                <rect key="frame" x="20" y="196.5" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.93333333333333335" green="0.59215686274509804" blue="0.011764705882352941" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="T3Z-Ph-zry"/>
@@ -254,10 +254,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_keyboard_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Tpp-8p-T7w">
-                                <rect key="frame" x="0.0" y="651" width="375" height="16"/>
+                                <rect key="frame" x="0.0" y="552" width="320" height="16"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Wi0-HC-0Ne">
-                                <rect key="frame" x="0.0" y="409.5" width="375" height="257.5"/>
+                                <rect key="frame" x="0.0" y="310.5" width="320" height="257.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="257.5" id="i2b-gk-db1"/>
@@ -280,7 +280,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="86" height="71"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAF-Vv-d6a">
-                                                    <rect key="frame" x="36" y="22" width="14.5" height="27"/>
+                                                    <rect key="frame" x="36.5" y="22" width="13" height="27"/>
                                                     <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22.5"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -312,7 +312,7 @@
                                 </connections>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For security reasons, the numpad layout is randomized" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCd-6n-3pk">
-                                <rect key="frame" x="20" y="363.5" width="335" height="33"/>
+                                <rect key="frame" x="20" y="264.5" width="280" height="33"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -368,7 +368,7 @@
                 <navigationController storyboardIdentifier="ChooseLanguageViewController" automaticallyAdjustsScrollViewInsets="NO" id="lcX-Cr-OBt" customClass="CustomNavigationViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="n40-ws-xce">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -385,11 +385,11 @@
             <objects>
                 <viewController id="M6j-Dz-j7k" customClass="SplashViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kN3-0T-ef1">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_splash_bg" translatesAutoresizingMaskIntoConstraints="NO" id="bf4-11-RnL">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -412,11 +412,11 @@
             <objects>
                 <viewController id="nws-DW-TOY" customClass="ConfirmPassCodeViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hLC-T8-ZTt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please, re-enter the same PIN Code that you have entered in previous step" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAt-q3-HGh">
-                                <rect key="frame" x="20" y="118.5" width="335" height="33"/>
+                                <rect key="frame" x="20" y="19.5" width="280" height="33"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -425,7 +425,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Confirm your PIN Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Gc-eB-so5">
-                                <rect key="frame" x="104" y="189.5" width="167" height="19"/>
+                                <rect key="frame" x="76.5" y="90.5" width="167" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -434,7 +434,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="YXg-Z2-nJR">
-                                <rect key="frame" x="102.5" y="256.5" width="170" height="15"/>
+                                <rect key="frame" x="75" y="157.5" width="170" height="15"/>
                                 <subviews>
                                     <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZCc-Gw-8hc">
                                         <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
@@ -517,7 +517,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZd-pv-XQU">
-                                <rect key="frame" x="20" y="296.5" width="335" height="48"/>
+                                <rect key="frame" x="20" y="197.5" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.93333333330000001" green="0.59215686270000001" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Nhb-m8-Acd"/>
@@ -537,10 +537,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_keyboard_bg" translatesAutoresizingMaskIntoConstraints="NO" id="N6D-kj-1rU">
-                                <rect key="frame" x="0.0" y="651" width="375" height="16"/>
+                                <rect key="frame" x="0.0" y="552" width="320" height="16"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="8JF-Rd-epk">
-                                <rect key="frame" x="0.0" y="409.5" width="375" height="257.5"/>
+                                <rect key="frame" x="0.0" y="310.5" width="320" height="257.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="257.5" id="k5J-Gg-qsk"/>
@@ -563,7 +563,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="86" height="71"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNR-9p-q3X">
-                                                    <rect key="frame" x="36" y="22" width="14.5" height="27"/>
+                                                    <rect key="frame" x="36.5" y="22" width="13" height="27"/>
                                                     <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22.5"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -595,14 +595,14 @@
                                 </connections>
                             </collectionView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xgL-dS-uJ1">
-                                <rect key="frame" x="20" y="104.5" width="335" height="104"/>
+                                <rect key="frame" x="20" y="84" width="280" height="104"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="104" id="uqM-RG-UTQ"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For security reasons, the numpad layout is randomized" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-R9-pXc">
-                                <rect key="frame" x="20" y="364.5" width="335" height="33"/>
+                                <rect key="frame" x="20" y="265.5" width="280" height="33"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -663,7 +663,7 @@
             <objects>
                 <viewController id="FKx-62-NGd" customClass="ActivateAccountViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8uV-hC-Nie">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kk4-w7-oxz">
@@ -676,7 +676,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="awM-kH-KDP">
-                                <rect key="frame" x="37.5" y="404.5" width="300" height="30"/>
+                                <rect key="frame" x="10" y="404.5" width="300" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9O0-at-9k2" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="33.5" height="30"/>
@@ -751,7 +751,7 @@
                                 </constraints>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EHJ-tp-dx1" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                <rect key="frame" x="20" y="307" width="335" height="30"/>
+                                <rect key="frame" x="20" y="307" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Gbz-43-5cQ"/>
                                 </constraints>
@@ -765,7 +765,7 @@
                                 </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e0N-Xq-cmK">
-                                <rect key="frame" x="20" y="587" width="335" height="48"/>
+                                <rect key="frame" x="20" y="488" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.0039215686274509803" green="0.55294117647058827" blue="0.27450980392156865" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="Asw-oo-b6F"/>
@@ -794,7 +794,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activation Your Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XW-Mg-4hE">
-                                <rect key="frame" x="91.5" y="160" width="192" height="19.5"/>
+                                <rect key="frame" x="64" y="160" width="192" height="19.5"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-400" family="PoppinsVN" pointSize="16"/>
                                 <color key="textColor" red="0.34307445623641447" green="0.6561173620619305" blue="0.30636598544111027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -803,7 +803,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="qNh-hh-Cip">
-                                <rect key="frame" x="294.5" y="107" width="65" height="20"/>
+                                <rect key="frame" x="245" y="107" width="65" height="20"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDJ-zS-yOM">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="20"/>
@@ -841,14 +841,14 @@
                                 </constraints>
                             </stackView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hI2-WP-BoX">
-                                <rect key="frame" x="20" y="84" width="335" height="104"/>
+                                <rect key="frame" x="20" y="84" width="280" height="104"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="104" id="QML-PO-QJT"/>
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_navbar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ru9-JT-gxt">
-                                <rect key="frame" x="89" y="94" width="197.5" height="46"/>
+                                <rect key="frame" x="83" y="94" width="154" height="46"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -905,11 +905,11 @@
             <objects>
                 <viewController id="Ms8-WS-2ci" customClass="LoginViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ouc-9x-q9s">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter your PIN Code" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7D-ez-hY1">
-                                <rect key="frame" x="114" y="188.5" width="147.5" height="19"/>
+                                <rect key="frame" x="86.5" y="89.5" width="147.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -918,7 +918,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="gxG-XC-x32">
-                                <rect key="frame" x="102.5" y="255.5" width="170" height="15"/>
+                                <rect key="frame" x="75" y="156.5" width="170" height="15"/>
                                 <subviews>
                                     <view tag="1" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="y71-gA-j82">
                                         <rect key="frame" x="0.0" y="0.0" width="15" height="15"/>
@@ -1001,7 +1001,7 @@
                                 </subviews>
                             </stackView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fEr-q8-qlx">
-                                <rect key="frame" x="20" y="295.5" width="335" height="48"/>
+                                <rect key="frame" x="20" y="196.5" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.93333333330000001" green="0.59215686270000001" blue="0.01176470588" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="qFR-k5-ebM"/>
@@ -1021,10 +1021,10 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_keyboard_bg" translatesAutoresizingMaskIntoConstraints="NO" id="jCc-q6-0cL">
-                                <rect key="frame" x="0.0" y="651" width="375" height="16"/>
+                                <rect key="frame" x="0.0" y="552" width="320" height="16"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="ntD-Ii-ZaR">
-                                <rect key="frame" x="0.0" y="409.5" width="375" height="257.5"/>
+                                <rect key="frame" x="0.0" y="310.5" width="320" height="257.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="257.5" id="PJJ-ww-4xG"/>
@@ -1047,7 +1047,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="86" height="71"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S7m-H0-Nwm">
-                                                    <rect key="frame" x="36" y="22" width="14.5" height="27"/>
+                                                    <rect key="frame" x="36.5" y="22" width="13" height="27"/>
                                                     <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22.5"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -1079,14 +1079,14 @@
                                 </connections>
                             </collectionView>
                             <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y4l-aa-dZB">
-                                <rect key="frame" x="20" y="121.5" width="335" height="104"/>
+                                <rect key="frame" x="20" y="84" width="280" height="104"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="104" id="9w6-cz-QqG"/>
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="For security reasons, the numpad layout is randomized" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdr-4D-heE">
-                                <rect key="frame" x="20" y="363.5" width="335" height="33"/>
+                                <rect key="frame" x="20" y="264.5" width="280" height="33"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1125,7 +1125,7 @@
                         <rightBarButtonItems>
                             <barButtonItem width="20" id="Ggg-vR-Xd8">
                                 <button key="customView" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="J2T-ww-iCI">
-                                    <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                    <rect key="frame" x="274" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="12"/>
                                     <state key="normal" title="ENG">
@@ -1138,14 +1138,14 @@
                             </barButtonItem>
                             <barButtonItem id="0iE-2h-XcF">
                                 <view key="customView" contentMode="scaleToFill" id="B2S-34-6yV">
-                                    <rect key="frame" x="320" y="12" width="1" height="20"/>
+                                    <rect key="frame" x="265" y="12" width="1" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" red="0.0" green="0.54901960780000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </view>
                             </barButtonItem>
                             <barButtonItem width="20" id="6pz-ku-zD6">
                                 <button key="customView" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="eWj-8o-zj6">
-                                    <rect key="frame" x="282" y="7" width="30" height="30"/>
+                                    <rect key="frame" x="227" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="PoppinsVN-600" family="PoppinsVN" pointSize="12"/>
                                     <state key="normal" title="VN">
@@ -1188,14 +1188,14 @@
             <objects>
                 <viewController storyboardIdentifier="HomeViewController" id="Gwn-W7-wUa" customClass="HomeViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xXh-Mi-ib9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_home_center" translatesAutoresizingMaskIntoConstraints="NO" id="cdb-KL-zgc">
-                                <rect key="frame" x="96.5" y="222.5" width="182" height="222"/>
+                                <rect key="frame" x="69" y="173" width="182.5" height="222.5"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to OCB iOTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdO-SF-TiH">
-                                <rect key="frame" x="101.5" y="94" width="172" height="19"/>
+                                <rect key="frame" x="74" y="94" width="172" height="19.5"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <color key="textColor" red="0.89411764709999997" green="0.59215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1204,7 +1204,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don’t have any transaction need to verify. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkh-JU-zC4">
-                                <rect key="frame" x="20" y="133" width="335" height="38.5"/>
+                                <rect key="frame" x="20" y="133.5" width="280" height="38.5"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1213,7 +1213,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBS-4w-e5T">
-                                <rect key="frame" x="20" y="469.5" width="335" height="96.5"/>
+                                <rect key="frame" x="20" y="420.5" width="280" height="134.5"/>
                                 <string key="text">OCB iOTP was built by OCB for secure your transaction based on the Policy of The State Bank of Viet Nam 
 For more information, Please click here
 </string>
@@ -1221,16 +1221,73 @@ For more information, Please click here
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upT-1G-pMn">
+                                <rect key="frame" x="0.0" y="239" width="320" height="90"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="yt9-Y1-XD7">
+                                        <rect key="frame" x="10" y="10" width="300" height="70"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="top" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_logo_rounded" translatesAutoresizingMaskIntoConstraints="NO" id="Bh4-KZ-IVm">
+                                                <rect key="frame" x="0.0" y="0.0" width="22.5" height="70"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="a50-Sb-cfs">
+                                                <rect key="frame" x="32.5" y="0.0" width="267.5" height="70"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Transaction Approval" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Deg-Wi-Ktb">
+                                                        <rect key="frame" x="0.0" y="0.0" width="267.5" height="17.5"/>
+                                                        <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Transaction Approval"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Vui lòng xác thực giao dịch/ Please verify the transaction" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YZi-qz-3eF">
+                                                        <rect key="frame" x="0.0" y="17.5" width="267.5" height="52.5"/>
+                                                        <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="14"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Vui lòng xác thực giao dịch/ Please verify the transaction"/>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Deg-Wi-Ktb" firstAttribute="height" secondItem="YZi-qz-3eF" secondAttribute="height" multiplier="1:3" id="Sn9-RE-i8V"/>
+                                                </constraints>
+                                            </stackView>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="Bh4-KZ-IVm" firstAttribute="width" secondItem="a50-Sb-cfs" secondAttribute="width" multiplier="1:12" id="0D4-e3-7kx"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstItem="yt9-Y1-XD7" firstAttribute="top" secondItem="upT-1G-pMn" secondAttribute="top" constant="10" id="5ym-6T-Cx3"/>
+                                    <constraint firstItem="yt9-Y1-XD7" firstAttribute="leading" secondItem="upT-1G-pMn" secondAttribute="leading" constant="10" id="JUs-Wn-5fK"/>
+                                    <constraint firstAttribute="bottom" secondItem="yt9-Y1-XD7" secondAttribute="bottom" constant="10" id="VDL-Ac-M9T"/>
+                                    <constraint firstAttribute="trailing" secondItem="yt9-Y1-XD7" secondAttribute="trailing" constant="10" id="Va6-IM-eUJ"/>
+                                    <constraint firstAttribute="height" constant="90" id="WMY-oF-KDo"/>
+                                </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="ACA-zo-601" appends="YES" id="PTD-QF-2Qc"/>
+                                </connections>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="sdO-SF-TiH" firstAttribute="top" secondItem="Gah-Zo-W5j" secondAttribute="top" constant="30" id="BmF-xB-KKW"/>
+                            <constraint firstItem="upT-1G-pMn" firstAttribute="centerY" secondItem="xXh-Mi-ib9" secondAttribute="centerY" id="GEQ-1i-eT5"/>
                             <constraint firstAttribute="trailing" secondItem="lBS-4w-e5T" secondAttribute="trailing" constant="20" id="Gqb-Mf-lf5"/>
                             <constraint firstItem="cdb-KL-zgc" firstAttribute="centerY" secondItem="xXh-Mi-ib9" secondAttribute="centerY" id="IiO-EN-OnQ"/>
                             <constraint firstItem="Bkh-JU-zC4" firstAttribute="top" secondItem="sdO-SF-TiH" secondAttribute="bottom" constant="20" id="JeQ-VK-fp6"/>
                             <constraint firstItem="cdb-KL-zgc" firstAttribute="centerX" secondItem="xXh-Mi-ib9" secondAttribute="centerX" id="QVa-2a-qy0"/>
+                            <constraint firstItem="Gah-Zo-W5j" firstAttribute="trailing" secondItem="upT-1G-pMn" secondAttribute="trailing" id="TAu-S7-9Zb"/>
                             <constraint firstItem="lBS-4w-e5T" firstAttribute="leading" secondItem="Gah-Zo-W5j" secondAttribute="leading" constant="20" id="TVJ-n6-CzC"/>
                             <constraint firstItem="lBS-4w-e5T" firstAttribute="top" secondItem="cdb-KL-zgc" secondAttribute="bottom" constant="25" id="gcS-4K-aGs"/>
+                            <constraint firstItem="upT-1G-pMn" firstAttribute="leading" secondItem="Gah-Zo-W5j" secondAttribute="leading" id="hya-SK-TCs"/>
                             <constraint firstItem="Bkh-JU-zC4" firstAttribute="leading" secondItem="Gah-Zo-W5j" secondAttribute="leading" constant="20" id="j3G-8a-24V"/>
                             <constraint firstAttribute="trailing" secondItem="Bkh-JU-zC4" secondAttribute="trailing" constant="20" id="vbK-dA-8z6"/>
                             <constraint firstItem="sdO-SF-TiH" firstAttribute="centerX" secondItem="Gah-Zo-W5j" secondAttribute="centerX" id="yew-4f-0zi"/>
@@ -1251,7 +1308,7 @@ For more information, Please click here
                         <rightBarButtonItems>
                             <barButtonItem width="20" id="E9N-RH-kJ4">
                                 <button key="customView" opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="21J-pM-ISH">
-                                    <rect key="frame" x="329" y="7" width="30" height="30"/>
+                                    <rect key="frame" x="274" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="12"/>
                                     <state key="normal" title="ENG">
@@ -1265,14 +1322,14 @@ For more information, Please click here
                             </barButtonItem>
                             <barButtonItem id="bzS-zG-zhY">
                                 <view key="customView" contentMode="scaleToFill" id="Ika-Uz-aLE">
-                                    <rect key="frame" x="320" y="12" width="1" height="20"/>
+                                    <rect key="frame" x="265" y="12" width="1" height="20"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <color key="backgroundColor" red="0.0" green="0.54901960780000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
                                 </view>
                             </barButtonItem>
                             <barButtonItem width="20" id="0wD-eA-auj">
                                 <button key="customView" opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="gBT-HB-nPh">
-                                    <rect key="frame" x="282" y="7" width="30" height="30"/>
+                                    <rect key="frame" x="227" y="7" width="30" height="30"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <fontDescription key="fontDescription" name="PoppinsVN-600" family="PoppinsVN" pointSize="12"/>
                                     <state key="normal" title="VN">
@@ -1288,13 +1345,21 @@ For more information, Please click here
                     </navigationItem>
                     <connections>
                         <outlet property="lblBottomMessage" destination="lBS-4w-e5T" id="wpH-vH-4Mc"/>
+                        <outlet property="lblNotificationMessage" destination="YZi-qz-3eF" id="EJ9-Z1-3Xl"/>
+                        <outlet property="lblNotificationTitle" destination="Deg-Wi-Ktb" id="V50-KF-lUr"/>
                         <outlet property="lblTopMessage" destination="Bkh-JU-zC4" id="U0p-Nt-kus"/>
                         <outlet property="lblWelcome" destination="sdO-SF-TiH" id="HsB-0e-MKl"/>
+                        <outlet property="viewNotification" destination="upT-1G-pMn" id="IRE-nv-chA"/>
                         <outletCollection property="btnSetLanguages" destination="gBT-HB-nPh" collectionClass="NSMutableArray" id="4ha-s8-zF6"/>
                         <outletCollection property="btnSetLanguages" destination="21J-pM-ISH" collectionClass="NSMutableArray" id="ptL-xI-Gxg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GH1-vv-7m1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="ACA-zo-601">
+                    <connections>
+                        <action selector="handleTapNotificationView:" destination="Gwn-W7-wUa" id="j6X-ME-8ym"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="3532" y="26.53673163418291"/>
         </scene>
@@ -1303,11 +1368,11 @@ For more information, Please click here
             <objects>
                 <viewController storyboardIdentifier="TransactionInformationViewController" id="md2-Zr-ijJ" customClass="TransactionInformationViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ttW-CE-TSt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mea-Ib-O8f">
-                                <rect key="frame" x="20" y="339" width="335" height="48"/>
+                                <rect key="frame" x="20" y="339" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.0" green="0.5490196078431373" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="5Sz-7b-Lyd"/>
@@ -1327,7 +1392,7 @@ For more information, Please click here
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zQ0-QW-zb3">
-                                <rect key="frame" x="20" y="407" width="335" height="48"/>
+                                <rect key="frame" x="20" y="407" width="280" height="48"/>
                                 <color key="backgroundColor" red="0.75686274509803919" green="0.75686274509803919" blue="0.75686274509803919" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="48" id="1m3-jo-8MR"/>
@@ -1347,10 +1412,10 @@ For more information, Please click here
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BBC-yL-Kyt">
-                                <rect key="frame" x="20" y="104" width="335" height="205"/>
+                                <rect key="frame" x="20" y="104" width="280" height="205"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/11/2018 - 14:32:00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnx-GH-k2P">
-                                        <rect key="frame" x="175.5" y="169" width="142" height="18"/>
+                                        <rect key="frame" x="175.5" y="205" width="85" height="36"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1365,7 +1430,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="003700007142008" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DK8-nE-0Vt">
-                                        <rect key="frame" x="175.5" y="87" width="131" height="18"/>
+                                        <rect key="frame" x="175.5" y="87" width="94.5" height="36"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1380,7 +1445,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQv-4u-tbi">
-                                        <rect key="frame" x="15" y="143" width="61.5" height="18"/>
+                                        <rect key="frame" x="15" y="179" width="61.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1389,7 +1454,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjz-MZ-fYq">
-                                        <rect key="frame" x="15" y="115" width="86.5" height="18"/>
+                                        <rect key="frame" x="15" y="133" width="86.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1413,19 +1478,19 @@ For more information, Please click here
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03700007142245" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4la-L1-wMN">
-                                        <rect key="frame" x="175.5" y="115" width="121" height="18"/>
+                                        <rect key="frame" x="175.5" y="133" width="93.5" height="36"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50.000.000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVW-uy-BYb">
-                                        <rect key="frame" x="175.5" y="143" width="80.5" height="18"/>
+                                        <rect key="frame" x="175.5" y="179" width="80.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <color key="textColor" red="0.89411764709999997" green="0.59215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thời gian giao dịch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="2Bj-aX-eds">
-                                        <rect key="frame" x="15" y="169" width="140.5" height="18"/>
+                                        <rect key="frame" x="15" y="205" width="140.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1513,10 +1578,10 @@ For more information, Please click here
             <objects>
                 <viewController id="rjv-Sf-fhB" customClass="SettingsViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ntn-BU-cqk">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Biometrics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NXY-dO-7NG">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Biometrics" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="NXY-dO-7NG">
                                 <rect key="frame" x="74" y="137.5" width="83.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -1525,8 +1590,8 @@ For more information, Please click here
                                     <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="Biometrics"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GPS Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td2-I3-Cff">
-                                <rect key="frame" x="252.5" y="137.5" width="102.5" height="19"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="GPS Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Td2-I3-Cff">
+                                <rect key="frame" x="645.5" y="137.5" width="102.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1535,10 +1600,10 @@ For more information, Please click here
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TQo-El-rye">
-                                <rect key="frame" x="20" y="206.5" width="335" height="460.5"/>
+                                <rect key="frame" x="20" y="206.5" width="280" height="361.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ifn-Mu-KQE">
-                                        <rect key="frame" x="20" y="20" width="295" height="269"/>
+                                        <rect key="frame" x="20" y="20" width="240" height="277.5"/>
                                         <string key="text">* Biometrics:
 When you turn ON, system will allow you to login application by Fingerprint or Face Regconization (It depends on your mobile device)
 When you turn OFF, system will set default login method as PIN Code
@@ -1562,7 +1627,7 @@ When you turn OFF, System does not record your location when you submit transact
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Setting authorization methods" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geY-hK-3Cs">
-                                <rect key="frame" x="20" y="94" width="244.5" height="19"/>
+                                <rect key="frame" x="20" y="94" width="215" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1581,8 +1646,8 @@ When you turn OFF, System does not record your location when you submit transact
                                     <action selector="toggleOnOff:" destination="rjv-Sf-fhB" eventType="valueChanged" id="TzC-hD-7P7"/>
                                 </connections>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0z8-2X-Xgg" customClass="CustomSwitch" customModule="OCBiOTP" customModuleProvider="target">
-                                <rect key="frame" x="193.5" y="137" width="49" height="20"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0z8-2X-Xgg" customClass="CustomSwitch" customModule="OCBiOTP" customModuleProvider="target">
+                                <rect key="frame" x="586.5" y="137" width="49" height="20"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <action selector="toggleOnOff:" destination="rjv-Sf-fhB" eventType="valueChanged" id="m5z-s5-A9M"/>
@@ -1647,13 +1712,13 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizedText" value="The OTP is available in 120 seconds"/>
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-Ay-WHZ">
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="lFL-Ay-WHZ">
                                                         <rect key="frame" x="27.5" y="132" width="280" height="30"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VFB-ZS-BMq" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1662,9 +1727,9 @@ When you turn OFF, System does not record your location when you submit transact
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-Lw-ljl" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="50" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="48.5" y="0.0" width="38" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1673,9 +1738,9 @@ When you turn OFF, System does not record your location when you submit transact
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m2e-xf-iJu" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="100" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="96.5" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1684,9 +1749,9 @@ When you turn OFF, System does not record your location when you submit transact
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <textField opaque="NO" tag="3" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OPZ-gg-pYr" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="150" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="145" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1695,9 +1760,9 @@ When you turn OFF, System does not record your location when you submit transact
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <textField opaque="NO" tag="4" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fsD-FR-9UU" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="200" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="193.5" y="0.0" width="38" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1706,9 +1771,9 @@ When you turn OFF, System does not record your location when you submit transact
                                                                 </userDefinedRuntimeAttributes>
                                                             </textField>
                                                             <textField opaque="NO" tag="5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qMe-QT-i6t" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                                                <rect key="frame" x="250" y="0.0" width="30" height="30"/>
+                                                                <rect key="frame" x="241.5" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -2000,7 +2065,7 @@ When you turn OFF, System does not record your location when you submit transact
                 <navigationController storyboardIdentifier="LoginViewController" automaticallyAdjustsScrollViewInsets="NO" id="KKk-bh-BPS" customClass="CustomNavigationViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cuD-8k-p4F">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2017,14 +2082,14 @@ When you turn OFF, System does not record your location when you submit transact
             <objects>
                 <viewController id="gll-Id-Qvp" customClass="CustomKeyboardViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HOw-ED-yIE">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_keyboard_bg" translatesAutoresizingMaskIntoConstraints="NO" id="70Y-eG-M9y">
-                                <rect key="frame" x="0.0" y="651" width="375" height="16"/>
+                                <rect key="frame" x="0.0" y="552" width="320" height="16"/>
                             </imageView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nAY-dB-zE5">
-                                <rect key="frame" x="0.0" y="409.5" width="375" height="257.5"/>
+                                <rect key="frame" x="0.0" y="310.5" width="320" height="257.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="257.5" id="sRq-2X-Hx7"/>
@@ -2047,7 +2112,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                     <rect key="frame" x="0.0" y="0.0" width="86" height="71"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="INH-cu-ztE">
-                                                    <rect key="frame" x="36" y="22" width="14.5" height="27"/>
+                                                    <rect key="frame" x="36.5" y="22" width="13" height="27"/>
                                                     <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22.5"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -2104,7 +2169,7 @@ When you turn OFF, System does not record your location when you submit transact
                 <navigationController storyboardIdentifier="NavigationHomeViewController" automaticallyAdjustsScrollViewInsets="NO" id="J66-DH-sPJ" customClass="CustomNavigationViewController" customModule="OCBiOTP" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Eli-VS-hkU">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -2119,6 +2184,7 @@ When you turn OFF, System does not record your location when you submit transact
     </scenes>
     <resources>
         <image name="icon_keyboard_backspace" width="26" height="19.5"/>
+        <image name="icon_logo_rounded" width="29.5" height="28"/>
         <image name="icon_navbar_logo" width="197.5" height="46"/>
         <image name="icon_ocb_iotp_logo" width="190.5" height="46"/>
         <image name="image_home_center" width="182.5" height="222.5"/>
@@ -2129,8 +2195,8 @@ When you turn OFF, System does not record your location when you submit transact
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="OOx-2z-eLZ"/>
-        <segue reference="BsK-K0-B1j"/>
+        <segue reference="hpr-hG-ek9"/>
         <segue reference="5M4-x4-t4g"/>
-        <segue reference="8Zu-c1-tLH"/>
+        <segue reference="GDa-Rx-ApH"/>
     </inferredMetricsTieBreakers>
 </document>

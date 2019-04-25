@@ -41,7 +41,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
             
         }
-        
+        application.applicationIconBadgeNumber = 0
         return true
     }
 
@@ -112,6 +112,7 @@ extension AppDelegate: UNUserNotificationCenterDelegate {
     @available(iOS 10.0, *)
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         completionHandler([.alert, .sound])
-        //NotificationCenter.default.post(name: .messageKey, object: nil, userInfo: notification.request.content.userInfo)
+        NotificationCenter.default.post(name: .messageOnForegroundKey, object: nil, userInfo: notification.request.content.userInfo)
     }
 }
+

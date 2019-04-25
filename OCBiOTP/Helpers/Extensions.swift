@@ -164,6 +164,7 @@ extension UIColor {
 extension Notification.Name {
     
     static let messageKey = Notification.Name("onMessageReceived")
+    static let messageOnForegroundKey = Notification.Name("onMessageReceivedOnForeground")
     static let handleMessageAfterLogin = Notification.Name("handleMessageAfterLogin")
     static let applicationWillEnterForeground = Notification.Name("applicationWillEnterForeground")
 }

@@ -31,8 +31,8 @@ struct AppConfigs {
     static let loginRequestTimeout: Int32 = 120
     
     // MARK: - URL Config
-//    static let baseUrl            = "https://office.securemetric.com:446"
-    static let baseUrl            = "https://auth.phuongdongbank.vn"
+    static let baseUrl            = "https://office.securemetric.com:446"
+ //   static let baseUrl            = "https://auth.phuongdongbank.vn"
 //    static let baseUrl            = "https://iotp.ocb.com.vn"
     
     static let defaultSoftCertUrl = baseUrl + "/CentagateMobileWS/webresources/auth/secure/mobile/approveSoftCert/"

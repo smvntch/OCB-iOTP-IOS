@@ -43,6 +43,7 @@ class LoginViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+       
         inputNumbers.removeAll()
         updateIntputViews()
         if let date = Utility.getValueFromLocal(key: AppPreferences.lockedTemp) as? Date {

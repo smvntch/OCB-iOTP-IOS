@@ -82,3 +82,8 @@
 "Your account have not activated. Please try again" = "Bạn kích hoạt không thành công ứng dụng. Vui lòng thử lại";
 
 "Application verification" = "Xác thực hệ thống";
+
+// MARK: - Home Screen : NotificationView
+"Vui lòng xác thực giao dịch/ Please verify the transaction" = "Vui lòng xác thực giao dịch/ Please verify the transaction";
+
+"Get request information failed. Please try again" = "Get request information failed. Please try again";
