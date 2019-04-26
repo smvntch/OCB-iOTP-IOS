@@ -667,7 +667,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kk4-w7-oxz">
-                                <rect key="frame" x="20" y="279.5" width="82" height="19.5"/>
+                                <rect key="frame" x="20" y="249" width="73.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -676,7 +676,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="awM-kH-KDP">
-                                <rect key="frame" x="10" y="404.5" width="300" height="30"/>
+                                <rect key="frame" x="10" y="373" width="300" height="30"/>
                                 <subviews>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9O0-at-9k2" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="33.5" height="30"/>
@@ -751,7 +751,7 @@
                                 </constraints>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EHJ-tp-dx1" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
-                                <rect key="frame" x="20" y="307" width="280" height="30"/>
+                                <rect key="frame" x="20" y="276" width="280" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="Gbz-43-5cQ"/>
                                 </constraints>
@@ -785,7 +785,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Activation Code" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xBW-dc-Bb5">
-                                <rect key="frame" x="20" y="361" width="171" height="19.5"/>
+                                <rect key="frame" x="20" y="330" width="156.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -794,7 +794,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activation Your Account" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6XW-Mg-4hE">
-                                <rect key="frame" x="64" y="160" width="192" height="19.5"/>
+                                <rect key="frame" x="74.5" y="130" width="171.5" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-400" family="PoppinsVN" pointSize="16"/>
                                 <color key="textColor" red="0.34307445623641447" green="0.6561173620619305" blue="0.30636598544111027" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
@@ -803,7 +803,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="qNh-hh-Cip">
-                                <rect key="frame" x="245" y="107" width="65" height="20"/>
+                                <rect key="frame" x="176" y="92" width="65" height="20"/>
                                 <subviews>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZDJ-zS-yOM">
                                         <rect key="frame" x="0.0" y="0.0" width="30" height="20"/>
@@ -848,7 +848,7 @@
                                 </constraints>
                             </view>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_navbar_logo" translatesAutoresizingMaskIntoConstraints="NO" id="ru9-JT-gxt">
-                                <rect key="frame" x="83" y="94" width="154" height="46"/>
+                                <rect key="frame" x="152" y="94" width="16" height="16"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1192,10 +1192,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="image_home_center" translatesAutoresizingMaskIntoConstraints="NO" id="cdb-KL-zgc">
-                                <rect key="frame" x="69" y="173" width="182.5" height="222.5"/>
+                                <rect key="frame" x="152" y="276" width="16" height="16"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to OCB iOTP" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdO-SF-TiH">
-                                <rect key="frame" x="74" y="94" width="172" height="19.5"/>
+                                <rect key="frame" x="78" y="94" width="164" height="19"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <color key="textColor" red="0.89411764709999997" green="0.59215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -1204,7 +1204,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You don’t have any transaction need to verify. " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bkh-JU-zC4">
-                                <rect key="frame" x="20" y="133.5" width="280" height="38.5"/>
+                                <rect key="frame" x="20" y="133" width="280" height="37.5"/>
                                 <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="16"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1213,7 +1213,7 @@
                                 </userDefinedRuntimeAttributes>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lBS-4w-e5T">
-                                <rect key="frame" x="20" y="420.5" width="280" height="134.5"/>
+                                <rect key="frame" x="20" y="317" width="280" height="93.5"/>
                                 <string key="text">OCB iOTP was built by OCB for secure your transaction based on the Policy of The State Bank of Viet Nam 
 For more information, Please click here
 </string>
@@ -1415,13 +1415,13 @@ For more information, Please click here
                                 <rect key="frame" x="20" y="104" width="280" height="205"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="20/11/2018 - 14:32:00" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qnx-GH-k2P">
-                                        <rect key="frame" x="175.5" y="205" width="85" height="36"/>
+                                        <rect key="frame" x="175.5" y="202" width="91" height="35"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="Transaction ID:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bm-Gy-n3m">
-                                        <rect key="frame" x="15" y="59" width="108.5" height="18"/>
+                                        <rect key="frame" x="15" y="59" width="100.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1430,13 +1430,13 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="003700007142008" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DK8-nE-0Vt">
-                                        <rect key="frame" x="175.5" y="87" width="94.5" height="36"/>
+                                        <rect key="frame" x="175.5" y="86.5" width="92" height="35"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Transaction Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mbA-OK-LSR">
-                                        <rect key="frame" x="20" y="20" width="195.5" height="19"/>
+                                        <rect key="frame" x="20" y="20" width="168.5" height="19"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="16"/>
                                         <color key="textColor" red="0.34307445619999999" green="0.65611736210000005" blue="0.30636598539999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <nil key="highlightedColor"/>
@@ -1445,7 +1445,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Amount:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qQv-4u-tbi">
-                                        <rect key="frame" x="15" y="179" width="61.5" height="18"/>
+                                        <rect key="frame" x="15" y="176.5" width="57" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1454,7 +1454,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="To Account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jjz-MZ-fYq">
-                                        <rect key="frame" x="15" y="133" width="86.5" height="18"/>
+                                        <rect key="frame" x="15" y="131.5" width="80" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1463,7 +1463,7 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="From Account:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MEA-72-ykF">
-                                        <rect key="frame" x="15" y="87" width="107" height="18"/>
+                                        <rect key="frame" x="15" y="86.5" width="99" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1472,25 +1472,25 @@ For more information, Please click here
                                         </userDefinedRuntimeAttributes>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LiQ-57-lsx">
-                                        <rect key="frame" x="175.5" y="59" width="58" height="18"/>
+                                        <rect key="frame" x="175.5" y="59" width="58.5" height="17.5"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <color key="textColor" red="0.89411764709999997" green="0.59215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="03700007142245" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4la-L1-wMN">
-                                        <rect key="frame" x="175.5" y="133" width="93.5" height="36"/>
+                                        <rect key="frame" x="175.5" y="131.5" width="92" height="35"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50.000.000" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mVW-uy-BYb">
-                                        <rect key="frame" x="175.5" y="179" width="80.5" height="18"/>
+                                        <rect key="frame" x="175.5" y="176.5" width="75.5" height="17.5"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="15"/>
                                         <color key="textColor" red="0.89411764709999997" green="0.59215686270000001" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thời gian giao dịch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="2Bj-aX-eds">
-                                        <rect key="frame" x="15" y="205" width="140.5" height="18"/>
+                                        <rect key="frame" x="15" y="202" width="128.5" height="18"/>
                                         <fontDescription key="fontDescription" name="PoppinsVN-300" family="PoppinsVN" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -1718,7 +1718,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VFB-ZS-BMq" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="0.0" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1729,7 +1729,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" tag="1" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FxL-Lw-ljl" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="48.5" y="0.0" width="38" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1740,7 +1740,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" tag="2" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m2e-xf-iJu" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="96.5" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1751,7 +1751,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" tag="3" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OPZ-gg-pYr" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="145" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1762,7 +1762,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" tag="4" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fsD-FR-9UU" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="193.5" y="0.0" width="38" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
@@ -1773,7 +1773,7 @@ When you turn OFF, System does not record your location when you submit transact
                                                             <textField opaque="NO" tag="5" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qMe-QT-i6t" customClass="OCBTextField" customModule="OCBiOTP" customModuleProvider="target">
                                                                 <rect key="frame" x="241.5" y="0.0" width="38.5" height="30"/>
                                                                 <color key="textColor" red="0.0039215686269999999" green="0.55294117649999996" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
-                                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                                <fontDescription key="fontDescription" name="PoppinsVN-500" family="PoppinsVN" pointSize="22"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                 <userDefinedRuntimeAttributes>
                                                                     <userDefinedRuntimeAttribute type="color" keyPath="lineColor">
